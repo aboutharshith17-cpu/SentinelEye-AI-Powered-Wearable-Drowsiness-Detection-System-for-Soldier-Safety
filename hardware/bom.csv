@@ -1,0 +1,35 @@
+Qty,Reference,Part,Value,Footprint,Manufacturer,PartNumber,Description,Unit_Price_USD
+1,U1,MCU,ESP32-S3-WROOM-1,Module:ESP32-S3-WROOM-1,Espressif,ESP32-S3-WROOM-1,WiFi+BT+BLE MCU with 8MB PSRAM,3.50
+1,U2,Camera,OV5647,OV5647 5MP,Module:OV5647_5MP,OmniVision,OV5647,5MP RGB camera module with MIPI interface,4.00
+1,U3,Audio,MAX98357A,MAX98357A,SOIC-8-3.9x4.9mm,Adafruit,3001,Class-D I2S audio amplifier 3W,1.50
+1,U4,Haptic,DRV2605,DRV2605,DRV2605,DRV2605,Texas Instruments,DRV2605,ERM/LRA haptic driver I2C,1.80
+1,U5,PMIC,MCP73831,MCP73831,SOT-23-5,Microchip,MCP73831T-5ACI/OT,LiPo battery charger 500mA,0.50
+1,U6,Protection,CW2015,CW2015,SOT-23-6,CW2015,MP2467DW-LF-Z,Fuel gauge for battery monitoring,0.60
+1,U7,REG,NCP1117,NCP1117-3.3,TO-220-3,On Semi,NCP1117ST33T3G,3.3V LDO regulator 1A,0.40
+1,J1,USB-C,USB-C,USB-C Receptacle,USB_C_Receptacle_USB2.0_16P,TE Connectivity,2308797-1,USB-C debug+power port,0.60
+1,J2,Camera,Camera Connector,15-pin FFC,FFC_Hirose_FH26-15S-0.5SH,Hirose,FH26-15S-0.5SH,15-pin 0.5mm FFC for camera,0.45
+1,J3,I2S,Speaker,Speaker terminal,2-pin JST_XH_2.0mm,JST,XH-2P,2-pin speaker connector,0.15
+1,J4,Haptic,Haptic Connector,Haptic connector,2-pin JST_XH_2.0mm,JST,XH-2P,2-pin haptic connector,0.15
+1,J5,Battery,Battery,Battery connector,JST_PH_2.0mm_2P,JST,PH-2P,JST-PH 2-pin LiPo connector,0.15
+1,J6,Antenna,Antenna Connector,IPEX/U.FL,IPEX_MHF4_2.0mm,U.FL,MHF4.2.0.010.001,Antenna connector for WiFi/BT,0.30
+1,Y1,Crystal,Crystal 40MHz,40MHz,XTAL_3225_4P,Kyocera,ABM8-40.000MHZ-D2Y-T,40MHz crystal oscillator,0.25
+1,Y2,Crystal,Crystal 32.768kHz,32.768kHz,XTAL_3215,Kyocera,ST3215S0V32768E0,32.768kHz RTC crystal,0.18
+1,C1,Capacitor,100nF,100nF,C_0402,Kemet,C0402X7R104K5P,Decoupling capacitor 25V X7R,0.02
+1,C2,Capacitor,10uF,10uF,C_0402,Kemet,C0402X5R106M5P,Bypass capacitor 6.3V X5R,0.03
+1,C3,Capacitor,22pF,22pF,C_0402,Kemet,C0402C0G220J5P,Crystal load capacitor 50V C0G,0.02
+1,C4,Capacitor,47uF,47uF,C_0805,Kemet,C0805C476M5P,Bulk capacitor 6.3V,0.05
+1,C5,Capacitor,1uF,1uF,C_0402,Kemet,C0402X5R105K5P,Decoupling capacitor 50V,0.02
+1,R1,Resistor,10k,10k,R_0402,Yageo,RC0402FR-0710KL,Pull-up resistor 1/16W 1%,0.02
+1,R2,Resistor,4.7k,4.7k,R_0402,Yageo,RC0402FR-074K7L,I2C pull-up resistor,0.02
+1,R3,Resistor,330,330,R_0402,Yageo,RC0402FR-07330RL,Current limit resistor,0.02
+1,R4,Resistor,100k,100k,R_0402,Yageo,RC0402FR-07100KL,Power-good pull-down,0.02
+1,D1,LED,Green,Green,LED_0603,Kingbright,KP-2012SGC,Status LED green 0603,0.08
+1,D2,LED,Red,Red,LED_0603,Kingbright,KP-2012SRC,Alert LED red 0603,0.08
+1,D3,TVS,ESD Protection,ESD5V0D3,DO-214AA-2,ON Semi,ESD5V0D3,USB ESD protection diode,0.12
+1,L1,Inductor,10uH,10uH,L_1812,Taiyo Yuden,NRS1812T100M,Power inductor 470mA 2.2A,0.25
+1,M1,Motor,Haptic,ERM Motor,10mm ERM,JAB007,LRA0101,10mm coin ERM haptic motor,1.20
+1,BT1,Battery,LiPo,3.7V 2000mAh,LiPo_2x25mm,Generic,LP503759,3.7V 2000mAh LiPo pouch cell,4.50
+1,SP1,Speaker,Speaker,8 Ohm 1W,Speaker_8OHM_1W,PUI Audio,FAMUB0800802-88,1W 8-ohm micro speaker,0.80
+1,F1,Fuse,Polyfuse,500mA,1206_L,Samsung,MF-NSMF050-2,Polyfuse resettable fuse,0.20
+1,SW1,Switch,Reset,Reset Pushbutton,TS-1089-E-C,TE,TS-1089-E-C,Tactile pushbutton reset switch 160gf,0.30
+1,ANT1,Antenna,Ceramic Antenna,2.4GHz,AN-TS02,Yageo,AN-TS02,2.4GHz ceramic chip antenna,0.60

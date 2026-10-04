@@ -1,0 +1,60 @@
+"""
+requirements.txt
+SentinelEye Software Dependencies
+"""
+
+# ML Training & Inference
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+tensorflow>=2.13.0
+tensorflow-model-optimization>=0.7.0
+onnx>=1.14.0
+onnx-tf>=1.2.0
+tflite-runtime>=2.14.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+pillow>=9.5.0
+opencv-python>=4.8.0
+albumentations>=1.3.0
+imgaug>=0.4.0
+
+# Dashboard & Web
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+websockets>=11.0
+aiohttp>=3.8.0
+plotly>=5.15.0
+dash>=2.11.0
+python-socketio>=5.9.0
+pydantic>=2.0.0
+
+# Data & Visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+python-multipart>=0.0.6
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Embedded (for cross-compilation)
+esptool>=4.6.0
+pyserial>=3.5
+
+# Optional: Mobile App
+# expo>=6.0.0
+# react-native>=0.72.0
+# @react-navigation/native>=6.1.0
+# react-native-ble-plx>=3.0.0
+# expo-location>=16.0.0
+# expo-notifications>=0.18.0

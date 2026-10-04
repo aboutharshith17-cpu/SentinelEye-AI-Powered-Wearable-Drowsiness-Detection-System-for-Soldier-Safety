@@ -1,0 +1,17 @@
+stl_ascii 1.0
+solid SentinelEye_V1
+  facet normal -0.707107 0 -0.707107
+    outer loop
+      vertex 0 0 0
+      vertex 45 0 0
+      vertex 45 35 0
+    endloop
+  endfacet
+  facet normal -0.707107 0 -0.707107
+    outer loop
+      vertex 0 0 0
+      vertex 45 35 0
+      vertex 0 35 0
+    endloop
+  endfacet
+endsolid SentinelEye_V1

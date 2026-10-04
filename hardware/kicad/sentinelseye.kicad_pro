@@ -1,0 +1,81 @@
+@file TemplateKiCadProject.pretty/sentinelseye.kicad_mod
+@date Sun Oct 04 2026
+@author SentinelEye Team
+
+[Project]
+SentinelEye: AI-Powered Wearable Drowsiness Detection System
+Rev 1.0
+
+[General]
+KicadVersion=7.0
+NetlistFile=sentinelseye.net
+SchematicFile=sentinelseye.kicad_sch
+
+[PCB]
+Thickness=1.6mm
+Layers=4
+SilkscreenTop=TOP
+SilkscreenBottom=BOTTOM
+SolderMaskTop=TOP
+SolderMaskBottom=BOTTOM
+PasteMaskTop=TOP
+PasteMaskBottom=BOTTOM
+CourtyardTop=TOP
+CourtyardBottom=BOTTOM
+FabricationTop=TOP
+FabricationBottom=BOTTOM
+AdhesiveTop=TOP
+AdhesiveBottom=BOTTOM
+GlueTop=TOP
+GlueBottom=BOTTOM
+
+[Coupon]
+Enabled=0
+
+[CopperLayers]
+Layer1=Signal (Top)
+Layer2=GND Plane
+Layer3=3V3 Plane
+Layer4=Signal (Bottom)
+
+[DielectricLayers]
+Dielectric1=0.2mm FR4 Prepreg
+Dielectric2=0.2mm FR4 Prepreg
+
+[Stackup]
+Copper1=35um
+Dielectric1=200um FR4 Prepreg
+Copper2=35um
+Dielectric2=200um FR4 Prepreg
+Copper3=35um
+
+[SolderMask]
+TopMask=10um
+BottomMask=10um
+
+[Silkscreen]
+TopScreen=10um
+BottomScreen=10um
+
+[Paste]
+TopPaste=10um
+BottomPaste=10um
+
+[PCB_Edge]
+LineWidth=0.2mm
+
+[Gerber]
+GTL=Top Copper
+GBL=Bottom Copper
+G1=Inner1 (GND)
+G2=Inner2 (3V3)
+GTO=Top Silkscreen
+GBO=Bottom Silkscreen
+GTP=Top Solder Paste
+GBP=Bottom Solder Paste
+GBS=Bottom Solder Mask
+GTS=Top Solder Mask
+GM1=Documentation
+GKO=Edge Cuts
+GP1=Drill File
+GD1=Drill Guide

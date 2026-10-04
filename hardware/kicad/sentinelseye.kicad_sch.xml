@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D70000">
+  <design>
+    <source>C:\Users\EG3081TU\Downloads\SentinelEye-AI-Powered-Wearable-Drowsiness-Detection-System\hardware\kicad\sentinelseye.kicad_sch</source>
+    <date>Sun Oct 04 2026</date>
+    <company>SentinelEye</company>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP32-S3-WROOM-1</value>
+      <footprint>Module:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_datasheet_en.pdf</datasheet>
+      <libsource lib="Module" part="ESP32-S3-WROOM-1"/>
+      <field name="Part Number">ESP32-S3-WROOM-1</field>
+      <field name="Description">WiFi+BT+BLE MCU with 8MB PSRAM</field>
+      <field name="Unit Price">$3.50</field>
+    </comp>
+    <comp ref="U2">
+      <value>OV5647</value>
+      <footprint>Module:OV5647_5MP</footprint>
+      <datasheet>https://www.ovt.com/sensor/ov5647/</datasheet>
+      <libsource lib="Module" part="OV5647_5MP"/>
+      <field name="Part Number">OV5647</field>
+      <field name="Description">5MP RGB camera module MIPI</field>
+      <field name="Unit Price">$4.00</field>
+    </comp>
+    <comp ref="U3">
+      <value>MAX98357A</value>
+      <footprint>SOIC-8-3.9x4.9mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf</datasheet>
+      <libsource lib="Amplifier_Audio" part="MAX98357A"/>
+      <field name="Part Number">MAX98357A</field>
+      <field name="Description">Class-D I2S audio amplifier 3W</field>
+      <field name="Unit Price">$1.50</field>
+    </comp>
+    <comp ref="U4">
+      <value>DRV2605</value>
+      <footprint>DRV2605</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv2605.pdf</datasheet>
+      <libsource lib="Haptic" part="DRV2605"/>
+      <field name="Part Number">DRV2605</field>
+      <field name="Description">ERM/LRA haptic driver I2C</field>
+      <field name="Unit Price">$1.80</field>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73831</value>
+      <footprint>SOT-23-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/MSD/ProductDocuments/DataSheets/MCP73831-Family-Data-Sheet-20001892E.pdf</datasheet>
+      <libsource lib="PMIC_Linear" part="MCP73831T-5ACI/OT"/>
+      <field name="Part Number">MCP73831T-5ACI/OT</field>
+      <field name="Description">LiPo battery charger 500mA</field>
+      <field name="Unit Price">$0.50</field>
+    </comp>
+    <comp ref="U6">
+      <value>CW2015</value>
+      <footprint>SOT-23-6</footprint>
+      <datasheet>https://www.cwems.com/upload/20180309/CW2015.pdf</datasheet>
+      <libsource lib="PMIC_Fuel_Gauge" part="CW2015"/>
+      <field name="Part Number">CW2015</field>
+      <field name="Description">Fuel gauge for battery monitoring</field>
+      <field name="Unit Price">$0.60</field>
+    </comp>
+    <comp ref="U7">
+      <value>NCP1117</value>
+      <footprint>TO-220-3</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncp1117-d.pdf</datasheet>
+      <libsource lib="PMIC_Linear" part="NCP1117ST33T3G"/>
+      <field name="Part Number">NCP1117ST33T3G</field>
+      <field name="Description">3.3V LDO regulator 1A</field>
+      <field name="Unit Price">$0.40</field>
+    </comp>
+    <comp ref="J1">
+      <value>USB-C</value>
+      <footprint>USB_C_Receptacle_USB2.0_16P</footprint>
+      <libsource lib="Connector_USB" part="USB_C_Receptacle_USB2.0_16P"/>
+      <field name="Part Number">2308797-1</field>
+      <field name="Description">USB-C debug+power port</field>
+      <field name="Unit Price">$0.60</field>
+    </comp>
+    <comp ref="J2">
+      <value>Camera Connector</value>
+      <footprint>FFC_Hirose_FH26-15S-0.5SH</footprint>
+      <libsource lib="Connector_FFC_FPC" part="FH26-15S-0.5SH"/>
+      <field name="Part Number">FH26-15S-0.5SH</field>
+      <field name="Description">15-pin 0.5mm FFC for camera</field>
+      <field name="Unit Price">$0.45</field>
+    </comp>
+    <comp ref="J3">
+      <value>Speaker</value>
+      <footprint>2-pin JST_XH_2.0mm</footprint>
+      <libsource lib="Connector_JST" part="XH-2P"/>
+      <field name="Part Number">XH-2P</field>
+      <field name="Description">2-pin speaker connector</field>
+      <field name="Unit Price">$0.15</field>
+    </comp>
+    <comp ref="J4">
+      <value>Haptic Connector</value>
+      <footprint>2-pin JST_XH_2.0mm</footprint>
+      <libsource lib="Connector_JST" part="XH-2P"/>
+      <field name="Part Number">XH-2P</field>
+      <field name="Description">2-pin haptic connector</field>
+      <field name="Unit Price">$0.15</field>
+    </comp>
+    <comp ref="J5">
+      <value>Battery</value>
+      <footprint>JST_PH_2.0mm_2P</footprint>
+      <libsource lib="Connector_JST" part="PH-2P"/>
+      <field name="Part Number">PH-2P</field>
+      <field name="Description">JST-PH 2-pin LiPo connector</field>
+      <field name="Unit Price">$0.15</field>
+    </comp>
+    <comp ref="J6">
+      <value>Antenna Connector</value>
+      <footprint>IPEX_MHF4_2.0mm</footprint>
+      <libsource lib="Connector_IPEX" part="MHF4.2.0.010.001"/>
+      <field name="Part Number">MHF4.2.0.010.001</field>
+      <field name="Description">Antenna connector for WiFi/BT</field>
+      <field name="Unit Price">$0.30</field>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal 40MHz</value>
+      <footprint>XTAL_3225_4P</footprint>
+      <libsource lib="Crystal" part="ABM8-40.000MHZ-D2Y-T"/>
+      <field name="Part Number">ABM8-40.000MHZ-D2Y-T</field>
+      <field name="Description">40MHz crystal oscillator</field>
+      <field name="Unit Price">$0.25</field>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal 32.768kHz</value>
+      <footprint>XTAL_3215</footprint>
+      <libsource lib="Crystal" part="ST3215S0V32768E0"/>
+      <field name="Part Number">ST3215S0V32768E0</field>
+      <field name="Description">32.768kHz RTC crystal</field>
+      <field name="Unit Price">$0.18</field>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>C_0402</footprint>
+      <libsource lib="Device" part="C"/>
+      <field name="Part Number">C0402X7R104K5P</field>
+      <field name="Description">Decoupling capacitor 25V X7R</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>C_0402</footprint>
+      <libsource lib="Device" part="C"/>
+      <field name="Part Number">C0402X5R106M5P</field>
+      <field name="Description">Bypass capacitor 6.3V X5R</field>
+      <field name="Unit Price">$0.03</field>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>C_0402</footprint>
+      <libsource lib="Device" part="C"/>
+      <field name="Part Number">C0402C0G220J5P</field>
+      <field name="Description">Crystal load capacitor 50V C0G</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>C_0805</footprint>
+      <libsource lib="Device" part="C"/>
+      <field name="Part Number">C0805C476M5P</field>
+      <field name="Description">Bulk capacitor 6.3V</field>
+      <field name="Unit Price">$0.05</field>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>C_0402</footprint>
+      <libsource lib="Device" part="C"/>
+      <field name="Part Number">C0402X5R105K5P</field>
+      <field name="Description">Decoupling capacitor 50V</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>R_0402</footprint>
+      <libsource lib="Device" part="R"/>
+      <field name="Part Number">RC0402FR-0710KL</field>
+      <field name="Description">Pull-up resistor 1/16W 1%</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>R_0402</footprint>
+      <libsource lib="Device" part="R"/>
+      <field name="Part Number">RC0402FR-074K7L</field>
+      <field name="Description">I2C pull-up resistor</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>R_0402</footprint>
+      <libsource lib="Device" part="R"/>
+      <field name="Part Number">RC0402FR-07330RL</field>
+      <field name="Description">Current limit resistor</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>R_0402</footprint>
+      <libsource lib="Device" part="R"/>
+      <field name="Part Number">RC0402FR-07100KL</field>
+      <field name="Description">Power-good pull-down</field>
+      <field name="Unit Price">$0.02</field>
+    </comp>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>LED_0603</footprint>
+      <libsource lib="Device" part="LED"/>
+      <field name="Part Number">KP-2012SGC</field>
+      <field name="Description">Status LED green 0603</field>
+      <field name="Unit Price">$0.08</field>
+    </comp>
+    <comp ref="D2">
+      <value>Red</value>
+      <footprint>LED_0603</footprint>
+      <libsource lib="Device" part="LED"/>
+      <field name="Part Number">KP-2012SRC</field>
+      <field name="Description">Alert LED red 0603</field>
+      <field name="Unit Price">$0.08</field>
+    </comp>
+    <comp ref="D3">
+      <value>ESD Protection</value>
+      <footprint>DO-214AA-2</footprint>
+      <libsource lib="Diode" part="ESD5V0D3"/>
+      <field name="Part Number">ESD5V0D3</field>
+      <field name="Description">USB ESD protection diode</field>
+      <field name="Unit Price">$0.12</field>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>L_1812</footprint>
+      <libsource lib="Device" part="L"/>
+      <field name="Part Number">NRS1812T100M</field>
+      <field name="Description">Power inductor 470mA 2.2A</field>
+      <field name="Unit Price">$0.25</field>
+    </comp>
+    <comp ref="M1">
+      <value>Haptic Motor</value>
+      <footprint>10mm ERM</footprint>
+      <libsource lib="Motor_Haptic" part="JAB007"/>
+      <field name="Part Number">JAB007</field>
+      <field name="Description">10mm coin ERM haptic motor</field>
+      <field name="Unit Price">$1.20</field>
+    </comp>
+    <comp ref="BT1">
+      <value>LiPo</value>
+      <footprint>LiPo_2x25mm</footprint>
+      <libsource lib="Battery" part="LP503759"/>
+      <field name="Part Number">LP503759</field>
+      <field name="Description">3.7V 2000mAh LiPo pouch cell</field>
+      <field name="Unit Price">$4.50</field>
+    </comp>
+    <comp ref="SP1">
+      <value>Speaker</value>
+      <footprint>Speaker_8OHM_1W</footprint>
+      <libsource lib="Audio" part="FAMUB0800802-88"/>
+      <field name="Part Number">FAMUB0800802-88</field>
+      <field name="Description">1W 8-ohm micro speaker</field>
+      <field name="Unit Price">$0.80</field>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>1206_L</footprint>
+      <libsource lib="Fuse" part="MF-NSMF050-2"/>
+      <field name="Part Number">MF-NSMF050-2</field>
+      <field name="Description">Polyfuse resettable fuse</field>
+      <field name="Unit Price">$0.20</field>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <footprint>TS-1089-E-C</footprint>
+      <libsource lib="Switch" part="TS-1089-E-C"/>
+      <field name="Part Number">TS-1089-E-C</field>
+      <field name="Description">Tactile pushbutton reset switch 160gf</field>
+      <field name="Unit Price">$0.30</field>
+    </comp>
+    <comp ref="ANT1">
+      <value>Antenna</value>
+      <footprint>AN-TS02</footprint>
+      <libsource lib="Antenna" part="AN-TS02"/>
+      <field name="Part Number">AN-TS02</field>
+      <field name="Description">2.4GHz ceramic chip antenna</field>
+      <field name="Unit Price">$0.60</field>
+    </comp>
+  </components>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="U1" pin="3V3"/>
+      <node ref="U3" pin="VDD"/>
+      <node ref="U4" pin="VDD"/>
+      <node ref="U6" pin="VDD"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="GND"/>
+      <node ref="U3" pin="GND"/>
+      <node ref="U4" pin="GND"/>
+      <node ref="U5" pin="GND"/>
+      <node ref="U6" pin="GND"/>
+      <node ref="U7" pin="GND"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J1" pin="GND"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J6" pin="GND"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="3" name="5V0_USB">
+      <node ref="J1" pin="VBUS"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U5" pin="VDD"/>
+      <node ref="U7" pin="IN"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="4" name="3V3_OUT">
+      <node ref="U7" pin="OUT"/>
+      <node ref="U1" pin="3V3"/>
+      <node ref="J2" pin="3V3"/>
+      <node ref="U6" pin="VDD"/>
+      <node ref="D1" pin="A"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="5" name="BATTERY">
+      <node ref="BT1" pin="+"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U5" pin="BAT"/>
+      <node ref="U6" pin="BAT"/>
+      <node ref="U7" pin="IN"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="6" name="I2C_SDA">
+      <node ref="U1" pin="I2C_SDA"/>
+      <node ref="U4" pin="SDA"/>
+      <node ref="U6" pin="SDA"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="7" name="I2C_SCL">
+      <node ref="U1" pin="I2C_SCL"/>
+      <node ref="U4" pin="SCL"/>
+      <node ref="U6" pin="SCL"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="8" name="I2S_BCLK">
+      <node ref="U1" pin="I2S_BCLK"/>
+      <node ref="U3" pin="BCLK"/>
+      <node ref="SP1" pin="1"/>
+    </net>
+    <net code="9" name="I2S_LRCLK">
+      <node ref="U1" pin="I2S_LRCLK"/>
+      <node ref="U3" pin="LRC"/>
+      <node ref="SP1" pin="2"/>
+    </net>
+    <net code="10" name="I2S_DIN">
+      <node ref="U1" pin="I2S_DIN"/>
+      <node ref="U3" pin="DIN"/>
+    </net>
+    <net code="11" name="HAPTIC_EN">
+      <node ref="U1" pin="GPIO9"/>
+      <node ref="U4" pin="EN"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="12" name="HAPTIC_PWM">
+      <node ref="U1" pin="GPIO10"/>
+      <node ref="U4" pin="PWM"/>
+    </net>
+    <net code="13" name="CAMERA_MIPI">
+      <node ref="U2" pin="MIPI_DP"/>
+      <node ref="U2" pin="MIPI_DN"/>
+      <node ref="J2" pin="MIPI"/>
+      <node ref="U1" pin="CAM_MIPI"/>
+    </net>
+    <net code="14" name="STATUS_LED">
+      <node ref="U1" pin="GPIO11"/>
+      <node ref="D2" pin="A"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="15" name="ALERT_LED">
+      <node ref="U1" pin="GPIO12"/>
+      <node ref="D1" pin="A"/>
+    </net>
+    <net code="16" name="RESET">
+      <node ref="U1" pin="EN"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="17" name="BOOT">
+      <node ref="U1" pin="IO0"/>
+      <node ref="J1" pin="IO0"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>
