@@ -1,4 +1,4 @@
-# SentinelEye: AI-Powered Wearable Drowsiness Detection System
+# SentinelEye: AI-Powered Wearable Drowsiness Detection System for Soldier's Safety
 
 ## System Overview
 
