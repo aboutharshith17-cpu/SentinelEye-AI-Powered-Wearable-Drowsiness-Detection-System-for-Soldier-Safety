@@ -30,7 +30,7 @@ An embedded wearable system that integrates computer vision, convolutional neura
 | Metric | Specification |
 |--------|--------------|
 | Inference Time | 8ms per frame (ESP32-S3) |
-| Model Accuracy | 97.2% (test set) |
+| Model Accuracy | 97.4% (test set) |
 | Battery Life | 4-6 hours continuous |
 | Weight | ~45g wearable |
 | Form Factor | 45x35x18mm |
